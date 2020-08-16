@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coverphone.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Inserir um Phoneword:"         
+            />
+        <Entry Placeholder="1-855-XAMARIN" x:Name="phoneNumberText" />
+        <Button Text="translateButton" x:Name="Translate" Clicked="Translate_Clicked"/>
+        <Button Text="Call" x:Name="callButton" Clicked="callButton_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
